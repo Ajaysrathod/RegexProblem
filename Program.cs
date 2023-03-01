@@ -12,6 +12,7 @@
             regex.ValidatePhoneNumber("91 9896271453");
             regex.ValidatePassword("Password");
             regex.ValidateStringPassword("Ajay123");
+            regex.ValidateNumericPassword("Ajay456");
             Console.ReadLine();
         }
     }
