@@ -5,6 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Regex Problem");
+            RegexProblem regex = new RegexProblem();
+            regex.ValidateFirstName("Ajay");
+            Console.ReadLine();
         }
     }
 }
