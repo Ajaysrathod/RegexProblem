@@ -11,6 +11,7 @@
             regex.ValidateEmail("abc.xyz@bl.co.in");
             regex.ValidatePhoneNumber("91 9896271453");
             regex.ValidatePassword("Password");
+            regex.ValidateStringPassword("Ajay123");
             Console.ReadLine();
         }
     }
