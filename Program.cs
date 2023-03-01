@@ -13,6 +13,7 @@
             regex.ValidatePassword("Password");
             regex.ValidateStringPassword("Ajay123");
             regex.ValidateNumericPassword("Ajay456");
+            regex.ValidateSpecialCharacter("Ajay");
             Console.ReadLine();
         }
     }
