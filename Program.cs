@@ -8,6 +8,7 @@
             RegexProblem regex = new RegexProblem();
             regex.ValidateFirstName("Ajay");
             regex.ValidateLastName("Rathod");
+            regex.ValidateEmail("abc.xyz@bl.co.in");
             Console.ReadLine();
         }
     }
